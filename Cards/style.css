@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+    /* border: solid red 1px; */
+  }
+
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+
+h2 {
+    color: white;
+  }
+
+.card1 {
+    background-color: #111;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 8px;
+  }
+
+.card2 {
+    background-color: #111;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 8px;
+  }
+
+.valorProduto {
+    color: #febe01
+}
+
+.legendaP {
+    margin: 10px;
+    color: #b2b2b2;
+    text-align: justify;
+}
+
+.modeloProduto {
+    color: #febe01
+}
+
+.btnComprar {
+    color: #332200;
+    font-size: 18px;
+    background-color: #febe01;
+    margin: 10px;
+    padding: ;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+    height:30px;
+}
