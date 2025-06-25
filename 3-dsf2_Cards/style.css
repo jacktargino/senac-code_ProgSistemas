@@ -1,62 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    
-    /* border: solid red 1px; */
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* A fonte na imagem de referência parece ser sem serifa, Arial ou similar */
+  font-family: Arial, sans-serif;
+}
 
+body {
+  background-color: #fff;
+}
 
 h1 {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-  }
+  text-align: center;
+  margin: 40px 20px;
+  /* Adicionado um pouco mais de margem */
+  font-family: "Roboto", sans-serif;
+  /* Fonte específica para o título principal */
+  font-weight: bold;
+  /* Título em negrito como na imagem */
+}
 
 h2 {
-    color: white;
-  }
+  color: white;
+  font-weight: bold;  /* Título do produto em negrito */
+  font-size: 22px;    /* Um pouco maior para mais destaque */
+}
 
-.card1 {
-    background-color: #111;
-    margin: 40px;
-    padding: 40px;
-    border-radius: 8px;
-  }
-
-.card2 {
-    background-color: #111;
-    margin: 40px;
-    padding: 40px;
-    border-radius: 8px;
-  }
+.card {
+  background-color: #111;
+  margin: 20px auto;      /* Usando margem horizontal 'auto' para centralizar os cards na página */
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;     /* Largura máxima para os cards não ficarem muito largos em telas grandes */
+}
 
 .valorProduto {
-    color: #febe01
+  color: #febe01
 }
 
 .legendaP {
-    margin: 10px;
-    color: #b2b2b2;
-    text-align: justify;
+  color: #b2b2b2;
+  margin-top: 15px;   /* Espaço entre o h2 e o parágrafo */
+  margin-bottom: 30px;   /* Espaço entre o parágrafo e o botão */
+  line-height: 1.5;   /* Melhora a legibilidade do parágrafo */
 }
 
 .modeloProduto {
-    color: #febe01
+  color: #febe01
 }
 
 .btnComprar {
-    color: #332200;
-    font-size: 18px;
-    background-color: #febe01;
-    margin: 10px;
-    padding: ;
-    border-radius: 4px;
-    text-align: center;
-    width: 150px;
-    height:30px;
+  color: #332200;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #febe01;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Estilo base do botão com a transição */
+.btnComprar {
+  color: #332200;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #febe01;
+  padding: 12px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Estilos que serão aplicados ao passar o mouse */
+.btnComprar:hover {
+  background-color: #e5a900;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
